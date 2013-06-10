@@ -12,7 +12,7 @@
   / set the viewport for mobile devices
   %meta{ :name => 'viewport', :content => 'width=device-width, initial-scale=1.0' }
 
-  %title= data.page.title || "Chubbs!"
+  %title= data.page.title || "Freifunk Düsseldorf"
 
   = stylesheet_link_tag "site"
 
@@ -29,18 +29,7 @@
     #main{ :role => 'main' }
       = yield
 
-    = partial "partials/footer"
-  / ! end of #container
-  
-  / Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary
-  %script{ :src => '//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js' }
-  %script
-    window.jQuery || document.write("<script src='js/libs/jquery-1.7.2.min.js'>\x3C/script>")
-
   /[if lt IE 7]
     = javascript_include_tag "libs/DD_belatedPNG_0.0.8a-min.js"
     %script
       DD_belatedPNG.fix("img, .png_bg");
-
-  / js scripts
-  = javascript_include_tag "all"

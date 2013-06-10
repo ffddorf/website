@@ -1,9 +1,15 @@
 ---
-title: "Chubbs Rocks!"
 name: "index"
 ---
-- content_for :head do
-	:javascript
-		// do stuff
-
-= render_partial "partials/hero"
+%section.hero-unit
+  %h1
+    Willkommen
+    %small beim Düsseldorfer Freifunk
+  %p
+    Freifunk ist Bürgerfunk, oder genauer gesagt ein Bürgerdatennetz. Er
+    verbindet Menschen über Funknetzwerke (WLANs)  und ermöglicht Kommunikation
+    und Austausch über ein Netz, das unabhängig vom Internet funktioniert.
+  %p
+    Die Düsseldorfer Community ist im Freifunk Rheinland organisiert. Mehr Informationen findest du im Wiki.
+  %p
+    %a.btn.btn-primary.btn-large(href="https://wiki.freifunk-rheinland.net/Funkzellen/D%C3%BCsseldorf") zum Wiki
