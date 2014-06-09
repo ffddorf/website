@@ -17,52 +17,50 @@ name: "index"
     height: 100%;
   }
 
-.container
+.row.videoWrapper
+  %h2 Intro
+  %iframe( src="//player.vimeo.com/video/64814620" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen )
 
-  .row.videoWrapper
-    %h2 Intro
-    %iframe( src="//player.vimeo.com/video/64814620" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen )
+.row
+  %h2 Aufbau
+  .col-md-3
+    %p
+      %i.fa.fa-arrow-circle-o-right
+      Wir bauen gemeinschaftlich ein Computer-Netzwerk, das an immer mehr Orten in Düsseldorf verfügbar ist.
+  .col-md-3
+    %p
+      %i.fa.fa-arrow-circle-left
+      Das Netzwerk kann von jedem genutzt und erweitert werden.
+  .col-md-3
+    %p
+      %i.fa.fa-rss
+      Knotenpunkte sind Access Points, die du mit deinem Laptop, Smartphone und Tablet nutzen kannst. Ohne Anmeldung!
+  .col-md-3
+    %p
+      %i.fa.fa-child
+      Das Netz wird komplett durch die Community organisiert, die vom gemeinnützigen Verein Freifunk Rheinland gefördert wird.
 
-  .row
-    %h2 Aufbau
-    .col-md-3
-      %p
-        %i.fa.fa-arrow-circle-o-right
-        Wir bauen gemeinschaftlich ein Computer-Netzwerk, das an immer mehr Orten in Düsseldorf verfügbar ist.
-    .col-md-3
-      %p
-        %i.fa.fa-arrow-circle-left
-        Das Netzwerk kann von jedem genutzt und erweitert werden.
-    .col-md-3
-      %p
-        %i.fa.fa-rss
-        Knotenpunkte sind Access Points, die du mit deinem Laptop, Smartphone und Tablet nutzen kannst. Ohne Anmeldung!
-    .col-md-3
-      %p
-        %i.fa.fa-child
-        Das Netz wird komplett durch die Community organisiert, die vom gemeinnützigen Verein Freifunk Rheinland gefördert wird.
-
-  .row
-    %h2 Mitmachen
-    .col-md-4
-      %p Um das Netz zu erweitern, musst du nicht viel tun. Besorge dir einen passenden WLAN-Router und installiere unsere Software. Eine Registrierung ist nicht notwendig, aber wir lernen gerne neue Freifunker kennen.
-  .row
-    .col-md-6
-      .row
-        %h2 Anleitung
-      .row
-        .col-md-9
-          %p
-            Lies unsere Anleitung, wie du Schritt für Schritt einen eigenen Freifunk-Knoten aufbauen kannst.
-        .col-md-3
-          %a.btn.btn-primary(href="/anleitung") Anleitung
-    .col-md-6
-      .row
-        %h2 Kontakt
-      .row
-        .col-md-9
-          %p
-            Schau vorbei bei einem unserer Treffen und auf unserer Mailingliste. Dort kannst du die anderen Freifunker kennenlernen und bekommst deine Fragen beantwortet. Wir freuen uns auf dich!
-        .col-md-3
-          %a.btn.btn-primary(href="/kontakt") Kontakt
+.row
+  %h2 Mitmachen
+  .col-md-4
+    %p Um das Netz zu erweitern, musst du nicht viel tun. Besorge dir einen passenden WLAN-Router und installiere unsere Software. Eine Registrierung ist nicht notwendig, aber wir lernen gerne neue Freifunker kennen.
+.row
+  .col-md-6
+    .row
+      %h2 Anleitung
+    .row
+      .col-md-9
+        %p
+          Lies unsere Anleitung, wie du Schritt für Schritt einen eigenen Freifunk-Knoten aufbauen kannst.
+      .col-md-3
+        %a.btn.btn-primary(href="/anleitung") Anleitung
+  .col-md-6
+    .row
+      %h2 Kontakt
+    .row
+      .col-md-9
+        %p
+          Schau vorbei bei einem unserer Treffen und auf unserer Mailingliste. Dort kannst du die anderen Freifunker kennenlernen und bekommst deine Fragen beantwortet. Wir freuen uns auf dich!
+      .col-md-3
+        %a.btn.btn-primary(href="/kontakt") Kontakt
 
