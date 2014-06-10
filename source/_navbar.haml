@@ -1,6 +1,16 @@
 .navbar.navbar-default( role="navigation" )
-  .navbar-fluid
+  .container
     .navbar-header
-      %a.navbar-brand
-        = image_tag("freifunk.svg", style: "height: 3em" )
+      %button( type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav" )
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand( href="/" )
+        = image_tag("freifunk.svg", style: "height: 2em")
         Freifunk Düsseldorf
+    .collapse.navbar-collapse#nav.pull-right
+      %ul.nav.navbar-nav
+        = nav_li( "Start", "/" )
+        = nav_li( "Anleitung", "/anleitung" )
+        = nav_li( "Kontakt", "/kontakt" )

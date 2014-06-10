@@ -16,51 +16,44 @@ name: "index"
     width: 100%;
     height: 100%;
   }
+  body {
+    background-image: url("/img/photo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
-.row.videoWrapper
-  %h2 Intro
-  %iframe( src="//player.vimeo.com/video/64814620" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen )
+.jumbotron.text-center
+  %h1 Für ein freies Netz
+  %p Wir bauen ein urbanes Computer-Netzwerk in Düsseldorf
+  %hr
+  .row
+    .col-md-4
+      %i.fa.fa-arrow-circle-o-right.fa-3x
+      %p Das Netzwerk kann von jedem genutzt werden, ohne Anmeldung. Und das an immer mehr Orten.
+    .col-md-4
+      %i.fa.fa-rss.fa-3x
+      %p Verbinde dein Gerät einfach per WLAN. Dazu brauchst du keine spezielle Software.
+    .col-md-4
+      %i.fa.fa-child.fa-3x
+      %p Mach mit bei den Freifunkern und erweitere das Netzwerk mit deinen eigenen Geräten.
 
-.row
-  %h2 Aufbau
-  .col-md-3
-    %p
-      %i.fa.fa-arrow-circle-o-right
-      Wir bauen gemeinschaftlich ein Computer-Netzwerk, das an immer mehr Orten in Düsseldorf verfügbar ist.
-  .col-md-3
-    %p
-      %i.fa.fa-arrow-circle-left
-      Das Netzwerk kann von jedem genutzt und erweitert werden.
-  .col-md-3
-    %p
-      %i.fa.fa-rss
-      Knotenpunkte sind Access Points, die du mit deinem Laptop, Smartphone und Tablet nutzen kannst. Ohne Anmeldung!
-  .col-md-3
-    %p
-      %i.fa.fa-child
-      Das Netz wird komplett durch die Community organisiert, die vom gemeinnützigen Verein Freifunk Rheinland gefördert wird.
-
-.row
-  %h2 Mitmachen
-  .col-md-4
-    %p Um das Netz zu erweitern, musst du nicht viel tun. Besorge dir einen passenden WLAN-Router und installiere unsere Software. Eine Registrierung ist nicht notwendig, aber wir lernen gerne neue Freifunker kennen.
-.row
-  .col-md-6
-    .row
+.jumbotron.text-center
+  %h1 Mitmachen
+  %p Stelle deinen eigenen Knoten auf, verbinde dich ans Freifunk-Netzwerk und richte die Antennen aus!
+  %hr
+  .row
+    .col-md-6
       %h2 Anleitung
-    .row
-      .col-md-9
-        %p
-          Lies unsere Anleitung, wie du Schritt für Schritt einen eigenen Freifunk-Knoten aufbauen kannst.
-      .col-md-3
-        %a.btn.btn-primary(href="/anleitung") Anleitung
-  .col-md-6
-    .row
+      %p Lies unsere Anleitung, wie du Schritt für Schritt einen eigenen Freifunk-Knoten aufbauen kannst.
+      %a.btn.btn-primary(href="/anleitung") Anleitung
+    .col-md-6
       %h2 Kontakt
-    .row
-      .col-md-9
-        %p
-          Schau vorbei bei einem unserer Treffen und auf unserer Mailingliste. Dort kannst du die anderen Freifunker kennenlernen und bekommst deine Fragen beantwortet. Wir freuen uns auf dich!
-      .col-md-3
-        %a.btn.btn-primary(href="/kontakt") Kontakt
+      %p Wir laden dich zu unseren Treffen ein. Komm einfach vorbei und abonniere unsere Mailingliste!
+      %a.btn.btn-primary(href="/kontakt") Kontakt
 
+.jumbotron.text-center
+  .row.videoWrapper
+    %iframe( src="//player.vimeo.com/video/64814620" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen )
+
+%p.pull-right
+  %a( href="https://secure.flickr.com/photos/20792787@N00/4016700157" ) Photo by jaime.silva
