@@ -6,7 +6,6 @@
 # First:
 #    gem install sass-rails
 #    gem install bootstrap-sass
-require 'bootstrap-sass'
 
 # Susy grids in Compass
 # First: gem install compass-susy-plugin
@@ -55,6 +54,19 @@ end
 #     "Helping"
 #   end
 # end
+
+helpers do
+  def nav_li(text, url)
+    trailurl = url
+    trailurl += '/' unless url == '/'
+    if trailurl == current_page.url
+      active = 'active'
+    end
+    content_tag :li, class: active do
+      link_to(text, url)
+    end
+  end
+end
 
 set :css_dir, 'stylesheets'
 
