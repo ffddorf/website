@@ -9,16 +9,12 @@
     %title= data.page.title || "Freifunk Düsseldorf"
     = yield_content :head
     :sass
-      .navbar-header
-        height: 80px
-      .navbar-collapse
-        padding: 0
-      .nav
-        height: 80px
-        font-size: 16px
-        padding-top: 28px
+      li
+        padding-top: 32px
   %body
     = partial "navbar"
     .container
       = yield
+  %script( src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" )
+  %script( src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" )
   = partial "analytics"
