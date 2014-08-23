@@ -8,6 +8,15 @@
     %link( href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" )
     %title= data.page.title || "Freifunk Düsseldorf"
     = yield_content :head
+    :sass
+      .navbar-header
+        height: 80px
+      .navbar-collapse
+        padding: 0
+      .nav
+        height: 80px
+        font-size: 16px
+        padding-top: 28px
   %body
     = partial "navbar"
     .container
