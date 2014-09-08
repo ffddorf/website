@@ -1,11 +1,20 @@
 ---
 title: Karte - Freifunk Düsseldorf
 ---
-:css
-  .karte {
-    height: 100%;
-  }
+
+.row
+  .col-md-11
+    %h2 Freifunk Nodes in der Domäne Rheinufer
+  .col-md-1
+    %button( class="btn btn-default btn-info" data-toggle="modal" data-target="#graph" ) Graph
+
+
+%div( class="modal fade" id="graph" tabindex="-1" role="dialog" aria-labelledby="Graph" aria-hidden="true" )
+  %div.modal-dialog
+    %div.modal-content
+      %div( class="embed-responsive embed-responsive-16by9" )
+        %iframe( class="embed-responsive-item" src="http://collectd.rheinufer.freifunk-rheinland.net/render/?width=586&height=308&_salt=1410213103.48&from=-1days&lineWidth=2&target=alias(movingAverage(maxSeries(collectd.rheinufer*_freifunk-rheinland_net.batman.gauge-clients)%2C10)%2C%22Clients%22)&target=alias(movingAverage(maxSeries(collectd.rheinufer*_freifunk-rheinland_net.batman.gauge-originators)%2C10)%2C%20%22Nodes%22)&title=Rheinufer" )
 
 .karte
-  .div( class="embed-responsive embed-responsive-16by9" )
+  %div( class="embed-responsive embed-responsive-16by9" )
     %iframe( class="embed-responsive-item" src="http://ffmap.freifunk-rheinland.net/graph.html" )
