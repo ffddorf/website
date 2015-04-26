@@ -8,14 +8,7 @@ title: Karte - Freifunk Düsseldorf
       Karte der Standorte
       %small Domäne Rheinufer
   .col-md-1
-    %button( class="btn btn-default btn-info" data-toggle="modal" data-target="#json" ) JSON
-
-
-%div( class="modal fade" id="graph" tabindex="-1" role="dialog" aria-labelledby="JSON" aria-hidden="true" )
-  %div.modal-dialog
-    %div.modal-content
-      %div( class="embed-responsive embed-responsive-16by9" )
-        %iframe( class="embed-responsive-item" src="http://ffmap.freifunk-rheinland.net/alfred_merged.json" )
+    %a( href="http://ffmap.freifunk-rheinland.net/alfred_merged.json" class="btn btn-default") JSON
 
 .karte
   %div( class="embed-responsive embed-responsive-16by9" )
