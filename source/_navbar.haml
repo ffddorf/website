@@ -8,9 +8,10 @@
         %span.icon-bar
       %a.navbar-brand( href="/" )
         = image_tag("freifunk-ddorf.svg", style: "height: 3em", alt: "Freifunk Düsseldorf")
-    .collapse.navbar-collapse#nav.pull-right
+    .collapse.navbar-collapse#nav
       %ul.nav.navbar-nav
         = nav_li( "Start", "/" )
         = nav_li( "Anleitung", "/anleitung" )
         = nav_li( "Kontakt", "/kontakt" )
-        = nav_li( "Karte", "/karte" )
+      %ul.nav.navbar-nav.pull-right
+        = nav_li( "Karte", "http://ffmap.freifunk-rheinland.net" )
