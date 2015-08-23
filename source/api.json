@@ -1,0 +1,42 @@
+{
+  "name": "Düsseldorf",
+  "url": "https://freifunk-duesseldorf.de",
+  "location": {
+    "city": "Düsseldorf",
+    "country": "DE",
+    "lat": 51.225556,
+    "lon": 6.782778,
+    "address": {
+      "Name": "Chaosdorf",
+      "Street": "Hüttenstr. 25",
+      "Zipcode": "40215"
+    }
+  },
+  "contact": {
+    "email": "kontakt@freifunk-duesseldorf.de",
+    "twitter": "@ffddorf"
+  },
+  "metacommunity": "Rheinufer",
+  "state": {
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Free internet access"
+    ],
+    "lastchange": "2015-08-23T13:02:51.132Z"
+  },
+  "techDetails": {
+    "firmware": {
+      "name": "Gluon"
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "autoupdate"
+    ],
+    "legals": []
+  },
+  "api": "0.4.8"
+}
