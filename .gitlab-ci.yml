@@ -5,8 +5,4 @@ build:
   script:
     - bundle install
     - bundle exec middleman build
-
-deploy:
-  stage: deploy
-  script:
     - bundle exec middleman deploy
