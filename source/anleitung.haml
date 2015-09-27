@@ -2,207 +2,154 @@
 title: Anleitung - Freifunk Düsseldorf
 ---
 
-%h1 Anleitung
-%h2 Gerät besorgen
-%p.lead Erst einmal benötigst du ein kompatibles Gerät. Handelsübliche WLAN-Router für 20 bis 30 Euro reichen aus, um einen Freifunk-Knoten zu betreiben. Aber bevor du nun in den Laden gehst und Geld ausgibst, schau einmal in die folgende Liste, welche Modelle mit unserer Software funktionieren.
-%p.lead
-  Jedes Modell gibt es in verschiedenen Revisionen. Die aktuellen Revisionen werden meistens unterstützt. Klicke auf den den richtigen Knopf und speichere die Firmware ab, dann geht's unten weiter.
-%p.lead
-  Falls du ein vorbereites Gerät bekommen hast, das du nur noch einrichten musst, dann überspringe die Installation und gehe direkt zur Einrichtung.
-%h2 Firmware Download
-%p
-  Aktuell verwenden wir
-  = link_to "Gluon 2015.1.2", "https://github.com/freifunk-gluon/gluon"
-%h3 Buffalo
-.row
-  .col-md-2
-    %p.lead
-      WZR-HP-AG300H
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-buffalo-wzr-hp-ag300h-wzr-600dhp.bin" ) Download
-.row
-  .col-md-2
-    %p.lead
-      WZR-HP-G450H
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-buffalo-wzr-hp-g450h.bin" ) Download
+.col-md-8
 
-%h3 D-Link
-.row
-  .col-md-2
-    %p.lead
-      DIR-825
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-d-link-dir-825-rev-b1.bin" ) Revision b1
-%h3 TP-Link
-.row
-  .col-md-2
-    %p.lead
-      CPE210
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-cpe210-v1.0.bin" ) Download
-.row
-  .col-md-2
-    %p.lead
-      CPE510
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-cpe510-v1.0.bin" ) Download
-.row
-  .col-md-2
-    %p.lead
-      TL-MR3020
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-mr3020-v1.bin" ) Revision 1
-.row
-  .col-md-2
-    %p.lead
-      TL-MR3040
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-mr3040-v1.bin" ) Revision 1
-.row
-  .col-md-2
-    %p.lead
-      TL-MR3420
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-mr3420-v1.bin" ) Revision 1
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-mr3420-v2.bin" ) Revision 2
+  %h1 Anleitung
 
-.row
-  .col-md-2
-    %p.lead
-      TL-MR3500
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wdr3500-v1.bin" ) Revision 1
+  %p.lead
+    Die Installation unserer Software halten wir so einfach wie möglich. Die Datei
+    mit unserer Firmware kannst du an der selben Stelle hochladen, wo der
+    Hersteller Updates für dein Gerät vorgesehen hat. Um Freifunk zu nutzen, musst
+    du keine technischen Dinge einstellen.
 
-.row
-  .col-md-2
-    %p.lead
-      TL-MR3600
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wdr3600-v1.bin" ) Revision 1
+  %p.lead
+    Wenn du deinen Rechner schon einmal selbst an ein Netzwerk angeschlossen hast,
+    solltest du mit unserer Anleitung zurecht kommen. Wenn nicht, dann bringe
+    bitte deinen Router und deinen Laptop zu einem unserer Treffen mit oder frage
+    uns im Slack-Chat!
 
-.row
-  .col-md-2
-    %p.lead
-      TL-MR4300
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wdr4300-v1.bin" ) Revision 1
+  %h2 Gerät besorgen
 
-.row
-  .col-md-2
-    %p.lead
-      TL-WR740N(D)
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wr740n-nd-v1.bin" ) Revision 1
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wr740n-nd-v3.bin" ) Revision 3
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wr740n-nd-v4.bin" ) Revision 4
-.row
-  .col-md-2
-    %p.lead
-      TL-WR741N(D)
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wr741n-nd-v1.bin" ) Revision 1
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wr741n-nd-v2.bin" ) Revision 2
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wr741n-nd-v4.bin" ) Revision 4
-.row
-  .col-md-2
-    %p.lead
-      TL-WR841N(D)
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wr841n-nd-v3.bin" ) Revision 3
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wr841n-nd-v5.bin" ) Revision 5
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wr841n-nd-v7.bin" ) Revision 7
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wr841n-nd-v8.bin" ) Revision 8
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wr841n-nd-v9.bin" ) Revision 9
-.row
-  .col-md-2
-    %p.lead
-      TL-WR842N(D)
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wr842n-nd-v1.bin" ) Revision 1
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wr842n-nd-v2.bin" ) Revision 2
-.row
-  .col-md-2
-    %p.lead
-      TL-WR941N(D)
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wr941n-nd-v2.bin") Revision 2
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wr941n-nd-v3.bin") Revision 3
-  .col-md-3
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wr941n-nd-v4.bin") Revision 4
-.row
-  .col-md-2
-    %p.lead
-      TL-WA901N(D)
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wa901n-nd-v2.bin") Revision 2
-.row
-  .col-md-2
-    %p.lead
-      TL-WR1043N(D)
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wr1043n-nd-v1.bin") Revision 1
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-tp-link-tl-wr1043n-nd-v2.bin") Revision 2
-%h3 Ubiquiti
-.row
-  .col-md-2
-    %p.lead
-      Bullet M
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-ubiquiti-bullet-m.bin" ) Download
-.row
-  .col-md-2
-    %p.lead
-      NanoStation M
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-ubiquiti-nanostation-m.bin" ) Download
-.row
-  .col-md-2
-    %p.lead
-      UniFi AP
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-ubiquiti-unifi.bin" ) Download
-.row
-  .col-md-2
-    %p.lead
-      UniFi AP Outdoor
-  .col-md-1
-    %a.btn.btn-default( href="http://images.freifunk-rheinland.net/images/gluon/rheinufer/2015.1.2-stable-1/factory/gluon-rheinufer-2015.1.2-stable-1-ubiquiti-unifiap-outdoor.bin" ) Download
+  %p 
+    Erst einmal benötigst du ein kompatibles Gerät. Handelsübliche WLAN-Router für
+    20 bis 30 Euro reichen aus, um einen Freifunk-Knoten zu betreiben. Aber bevor
+    du nun in den Laden gehst und Geld ausgibst, schau einmal in die Liste der
+    Downloads, welche Modelle mit unserer Software funktionieren.
 
-%h2 Installation
-%p.lead
-  Mit dieser Firmware wird dein WLAN-Router zu einem Freifunk-Knoten
-  umprogrammiert. Die Installation funktioniert genau so, wie eine
-  Aktualisierung der Firmware durch eine Datei des Herstellers. Mit unserer
-  Firmware wird das Gerät umprogrammiert.
-%p.lead
-  Wie das genau funktioniert, erklären unsere Genossen vom Freifunk Hamburg sehr anschaulich in
-  %a(href="http://hamburg.freifunk.net/anleitung/firmware-einspielen") ihrem Blog.
+  %p
+    Jedes Modell gibt es in verschiedenen Revisionen. Die aktuellen Revisionen
+    werden meistens unterstützt. Klicke auf den den richtigen Knopf und speichere
+    die Firmware ab, dann geht's unten weiter.
 
-%h2 Einrichtung
-%p.lead
-  Beim dem ersten Start geht der Knoten in den Konfigurationsmodus. So kannst du ihn in Ruhe einrichten, bevor er sich ins Netz einbucht. Die Angaben dort sind nichts kompliziertes und auch dafür gibt es im
-  Blog der Hamburger eine
-  %a(href="http://hamburg.freifunk.net/anleitung/router-einrichten") Anleitung.
+  %p
+    Falls du ein vorbereites Gerät bekommen hast, das du nur noch einrichten
+    musst, dann überspringe die Installation und gehe direkt zur Einrichtung.
 
-%h2 Aufstellen
-%p.lead
-  Den Freifunk-Knoten baust du am besten da auf, wo er gut erreichbar ist. Das ist zum Beispiel auf der Fensterbank der Fall. Wenn das Kabel mit dem Internet-Anschluss nicht bis dorthin reicht, dann nimm einfach mehrere Knoten, so dass sie sich per WLAN verbinden.
-%p.lead
-  Freifunk-Knoten, die zu der selben Community gehören, verbinden sich auch immer per WLAN. So reichen sie wie in einer Eimerkette die Daten von Punkt zu Punkt weiter. Wer mag, kann mit größeren und speziellen Antennen diese Verbindungen verbessern und die Reichweite erhöhen.
-%p.lead
-  Wir freuen uns, wenn du als neuer Freifunker zu unseren
-  %a(href="/kontakt") Treffen
-  kommst.
+  %h2 Installation
+
+  %p
+    Mit unserer Firmware wird dein WLAN-Router zu einem Freifunk-Knoten
+    umprogrammiert. Die Installation funktioniert genau so, wie eine
+    Aktualisierung der Firmware durch eine Datei des Herstellers. Mit unserer
+    Firmware wird das Gerät umprogrammiert.
+
+  %p
+    Es gibt nicht nur viele Modelle, sondern bei den meisten davon auch
+    unterschiedliche Revisionen. Da diese recht unterschiedlich ausfallen können,
+    benötigst du die genau passende Firmware-Datei für deinen Router. Auf der
+    Unterseite deines Routers befindet sich ein Aufkleber mit der genauen
+    Bezeichnung. Dort steht zum Beispiel "TP-Link WR-841ND Rev. 9".
+
+  %p
+    Besuche nun die
+    %a( href="/download") Download-Seite
+    und lade die passende Firmware-Datei herunter.
+
+  %p
+    Schließe den Router mit dem Netzteil an eine Steckdose an und verbinde ihn mit
+    dem grauen Patchkabel zu deinem Rechner. Am Router kommt das Kabel in die
+    Buchse 1 (gelb). Wenn dein Laptop keine passende Buchse hat, brauchst du noch
+    einen USB-Netzwerkadapter.
+
+  %p
+    Nun kommt es auf den Hersteller an, wie genau man die Firmware-Datei
+    einspielen muss. Dazu gibt es normalerweise im Handbuch eine Anleitung. Bei
+    TP-Link geht man folgendermaßen vor:
+
+  %ol
+    %li
+      Besuche die Adresse
+      %a( href="http://192.168.0.1" rel="nofollow" target="_blank" )http://192.168.0.1
+    %li
+      Nun kommt eine Passwort-Abfrage. Gib für Benutzernamen und Passwort jeweils "admin" ein.
+    %li
+      Öffne "System Tools" und gehe zu "Firmware Upgrade".
+    %li
+      Drücke bei "File" auf "Datei auswählen" und suche die heruntergeladene Firmware-Datei heraus.
+    %li
+      Drücke auf "Upgrade" und im erscheinenden Fenster auf "OK".
+    %li
+      Warte, bis der Prozess beendet ist und ziehe nicht den Stecker!
+    %li
+      Wenn die Lampen am Router einmal alle gleichzeitig aufleuchten und danach ausgehen, startet das Gerät neu.
+    %li
+      Sobald die Betriebslampe ⚙  blinkt, ist das Gerät bereit zur Einrichtung.
+    
+  %h2 Einrichtung
+
+  %p
+    Nun befindet sich das Gerät im Config-Mode und erwartet einige Angaben, bevor es in Betrieb gehen kann. Als erstes verbinde es erneut mit deinem Rechner, in dem du das Patchkabel an einem Ende herausziehst und wieder einsteckst. Dadurch aktualisiert sich die Netzwerkverbindung an deinem Rechner. Dann besuche folgende Adresse:
+    %a( href="http://192.168.1.1" rel="nofollow" target="_blank" )http://192.168.1.1
+
+  %p
+    Fülle das erscheinende Formular aus. Die Angaben sind freiwillig, denn sie landen öffentlich im Netz! Wir hoffen aber, dass du einen Ort der Aufstellung und eine Kontakt-Info hinterlässt, damit Freifunker aus deiner Community dich erreichen, wenn sie das Netzwerk mit dir zusammen erweitern wollen oder dich wegen Umbaumaßnahmen erreichen müssen.
+
+  %p
+    %strong Name dieses Knotens
+    ist deine freie Wahl. Am besten, du hälst dich an eine Struktur. Wir empfehlen dir "Location-Raum-Nummer" oder ähnliches. Beispiele: "Poststraße-26-Dach", " Eris-Tempel-001", "Bolzplatz-Nord".
+
+  %p
+    %strong Mesh-VPN
+    möchtest du wahrscheinlich aktivieren. Das bedeutet, dass dein Knoten über
+    das lokale Netzwerk einen Tunnel zu einem unserer Server aufbaut. Über
+    diesen verbindet sich deine Location mit dem Freifunk-Netzwerk und dem Rest
+    des Internets. Wenn das Gerät lediglich zur Erweiterung deines lokalen
+    Netzwerks dienen soll, dann benötigst du diese Funktion nicht unbedingt.
+
+  %p
+    %strong Knoten auf der Karte anzeigen
+    ermöglicht die Anzeige deines Knotens auf unserer
+    %a( href="http://map.freifunk-duesseldorf.de" target="_blank" ) Karte.
+    Dazu gib die Koordinaten ein. Diese findest du beispielsweise bei
+    %a( href="https://www.google.de/maps" target="_blank" ) Google Maps
+    , wenn du auf die Stelle drei Mal schnell hintereinander klickst.
+
+  %p
+    In dem Feld
+    %strong Kontakt
+    trage bitte deine Mail-Adresse ein. Wenn du nicht deine private Anschrift
+    verwenden möchtest, empfehlen wir dir die Verwendung einer weiteren Mailbox
+    nur für diesen Zweck.
+
+  %p
+    Es gibt noch ein paar mehr Felder und Funktionen, die wir hier nicht
+    vollständig aufzählen möchten. Diese sollten selbsterklärend sein oder nur
+    für erfahrene Anwender interessant. Wenn du unten angekommen bist und
+    zufrieden mit den Eingaben, dann klicke auf "Fertig".
+
+  %p
+    Nun startet dein Knoten neu. Das Patchkabel kannst du entfernen oder dazu
+    verwenden, den Knoten mit der WAN-Buchse (blau) ans Netzwerk zu verbinden.
+    Das hat aber nur einen Zweck, wenn du im vorherigen Schritt das Mesh-VPN
+    aktiviert hast.
+
+  %p Fertig! Dein Knoten ist nun einsatzbereit. Solltest du einmal etwas ändern wollen, dann drücke so lange auf den Reset-Knopf des Knotens, bis er neu startet. Dann befindet sich dieser wieder im Config-Mode und du kannst alle Einstellungen verändern.
+
+  %h2 Aufstellen
+
+  %p
+    Den Freifunk-Knoten baust du am besten da auf, wo er gut erreichbar ist. Das
+    ist zum Beispiel auf der Fensterbank der Fall. Wenn das Kabel mit dem
+    Internet-Anschluss nicht bis dorthin reicht, dann nimm einfach mehrere Knoten,
+    so dass sie sich per WLAN verbinden.
+
+  %p
+    Freifunk-Knoten, die zu der selben Community gehören, verbinden sich auch
+    immer per WLAN. So reichen sie wie in einer Eimerkette die Daten von Punkt zu
+    Punkt weiter. Wer mag, kann mit größeren und speziellen Antennen diese
+    Verbindungen verbessern und die Reichweite erhöhen.
+
+  %p
+    Wir freuen uns, wenn du als neuer Freifunker zu unseren
+    %a(href="/kontakt") Treffen
+    kommst.
