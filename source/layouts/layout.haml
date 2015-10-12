@@ -6,6 +6,8 @@
     %meta{ :name => 'viewport', :content => 'width=device-width, initial-scale=1.0' }
     %link( rel="stylesheet" href="//bootswatch.com/lumen/bootstrap.min.css" )
     %link( href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" )
+    %link( href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.4.0/fullcalendar.css" rel="stylesheet" )
+    %link( href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.4.0/fullcalendar.print.css" rel="stylesheet" media="print" )
     %link( rel="icon" type="image/png" href="/img/freifunk.png" )
     %link( rel="apple-touch-icon" type="image/png" href="/img/freifunk.png" )
     %title= data.page.title || "Freifunk Düsseldorf"
@@ -13,6 +15,12 @@
     :sass
       li
         padding-top: 32px
+      .fc-event
+        text-decoration: none !important
+      .fc-event .fc-content
+        font-size: 16px
+      .fc-day-grid-event .fc-content
+        white-space: normal
     = partial "analytics"
   %body
     = partial "navbar"
@@ -20,3 +28,32 @@
       = yield
   %script( src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" )
   %script( src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" )
+  %script( src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js" )
+  %script( src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.4.0/fullcalendar.min.js" )
+  %script( src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.4.0/lang/de.js" )
+  %script( src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.4.0/gcal.js" )
+  :javascript
+    $(document).ready(function() {
+      $('#calendar').fullCalendar({
+          googleCalendarApiKey: 'AIzaSyCd4qpRTufHOrQPmxMP086FZ8r1EhJNiaQ',
+          events: {
+              googleCalendarId: 'fluxent.de_q9r2g8ij29e6satlpin9nrchlc@group.calendar.google.com'
+          },
+          firstDay: 1,
+          lang: 'de',
+          eventColor: '#009ee0',
+          eventBackgroundColor: '#009ee0',
+          eventTextColor: '#ffffff',
+          header: {
+            left:   'title',
+            center: '',
+            right:  'today prev,next'
+          },
+          timeFormat: 'HH:mm',
+          eventClick: function(event) {
+              // opens events in a popup window
+              window.open(event.url, 'gcalevent', 'width=700,height=600');
+              return false;
+          },
+      });
+    });
