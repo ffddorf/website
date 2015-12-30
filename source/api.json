@@ -14,11 +14,12 @@
   },
   "contact": {
     "email": "kontakt@freifunk-duesseldorf.de",
+    "phone": "+49 211 74951760",
     "irc": "ircs://irc.hackint.org:6697/#freifunk-ddorf",
     "facebook": "https://www.facebook.com/freifunkddorf",
-    "twitter": "@ffddorf"
+    "twitter": "@ffddorf",
+    "googleplus": "https://plus.google.com/communities/103487395258892395479"
   },
-  "metacommunity": "Rheinufer",
   "state": {
     "focus": [
       "infrastructure/backbone",
@@ -26,11 +27,32 @@
       "Social Community Building",
       "Free internet access"
     ],
-    "lastchange": "2015-08-24T13:47:44.983Z"
+    "lastchange": "2015-12-30T14:42:03.578Z"
   },
+  "nodeMaps": [
+    {
+      "url": "http://map.freifunk-duesseldorf.de/",
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
+    }
+  ],
   "techDetails": {
     "firmware": {
-      "name": "Gluon"
+      "name": "Gluon",
+      "url": "https://freifunk-duesseldorf.de/download/",
+      "docs": "https://freifunk-duesseldorf.de/anleitung/"
+    },
+    "networks": {
+      "ipv6": [
+        {
+          "network": "2a03:2260:40:40::/64"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "10.40.0.0/19"
+        }
+      ]
     },
     "routing": [
       "batman-adv"
@@ -38,7 +60,9 @@
     "updatemode": [
       "autoupdate"
     ],
-    "legals": []
+    "legals": [
+      "institutions"
+    ]
   },
-  "api": "0.4.8"
+  "api": "0.4.11"
 }
