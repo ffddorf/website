@@ -17,7 +17,7 @@ title: Download - Freifunk Düsseldorf
       .col-sm-8.col-md-9
         - if model.image.is_a? Hash
           - model.image.each do |revision,image|
-            %a.btn.btn-default( href="https://images.freifunk-duesseldorf.de/gluon/stable/factory/#{image}" )
+            %a.btn.btn-default( href="#{data.downloads.base_url}#{data.downloads.prefix}-#{data.downloads.version}-#{image}" )
               =revision
         - else
-          %a.btn.btn-default( href="https://images.freifunk-duesseldorf.de/gluon/stable/factory/#{model.image}" ) Download
+          %a.btn.btn-default( href="#{data.downloads.base_url}#{data.downloads.prefix}-#{data.downloads.version}-#{model.image}" ) Download
