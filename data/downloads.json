@@ -5,11 +5,11 @@
       "models": [
         {
           "name": "wzr-ag300h / wzr-600dhp",
-          "image": "gluon-ddorf-v1.2.5-r2-buffalo-wzr-hp-ag300h-wzr-600dhp.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-buffalo-wzr-hp-ag300h-wzr-600dhp.bin"
         },
         {
           "name": "hp-g450h",
-          "image": "gluon-ddorf-v1.2.5-r2-buffalo-wzr-hp-g450h.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-buffalo-wzr-hp-g450h.bin"
         }
       ]
     },
@@ -19,13 +19,13 @@
         {
           "name": "dir-615",
           "image": {
-            "Revision C1": "gluon-ddorf-v1.2.5-r2-d-link-dir-615-rev-c1.bin"
+            "Revision C1": "gluon-ddorf-v1.2.7-r4-d-link-dir-615-rev-c1.bin"
           }
         },
         {
           "name": "dir-825",
           "image": {
-            "Revision B1": "gluon-ddorf-v1.2.5-r2-d-link-dir-825-rev-b1.bin"
+            "Revision B1": "gluon-ddorf-v1.2.7-r4-d-link-dir-825-rev-b1.bin"
           }
         }
       ]
@@ -35,11 +35,11 @@
       "models": [
         {
           "name": "6408a",
-          "image": "gluon-ddorf-v1.2.5-r2-gl-inet-6408a-v1.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-gl-inet-6408a-v1.bin"
         },
         {
           "name": "6416a",
-          "image": "gluon-ddorf-v1.2.5-r2-gl-inet-6416a-v1.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-gl-inet-6416a-v1.bin"
         }
       ]
     },
@@ -48,7 +48,7 @@
       "models": [
         {
           "name": "wrt160nl",
-          "image": "gluon-ddorf-v1.2.5-r2-linksys-wrt160nl.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-linksys-wrt160nl.bin"
         }
       ]
     },
@@ -58,22 +58,22 @@
         {
           "name": "wndr3700",
           "image": {
-            "Revision 1": "gluon-ddorf-v1.2.5-r2-netgear-wndr3700.img",
-            "Revision 2": "gluon-ddorf-v1.2.5-r2-netgear-wndr3700v2.img",
-            "Revision 4": "gluon-ddorf-v1.2.5-r2-netgear-wndr3700v4.img"
+            "Revision 1": "gluon-ddorf-v1.2.7-r4-netgear-wndr3700.img",
+            "Revision 2": "gluon-ddorf-v1.2.7-r4-netgear-wndr3700v2.img",
+            "Revision 4": "gluon-ddorf-v1.2.7-r4-netgear-wndr3700v4.img"
           }
         },
         {
           "name": "wndr3800",
-          "image": "gluon-ddorf-v1.2.5-r2-netgear-wndr3800.img"
+          "image": "gluon-ddorf-v1.2.7-r4-netgear-wndr3800.img"
         },
         {
           "name": "wndr4300",
-          "image": "gluon-ddorf-v1.2.5-r2-netgear-wndr4300.img"
+          "image": "gluon-ddorf-v1.2.7-r4-netgear-wndr4300.img"
         },
         {
           "name": "wndrmacv2",
-          "image": "gluon-ddorf-v1.2.5-r2-netgear-wndrmacv2.img"
+          "image": "gluon-ddorf-v1.2.7-r4-netgear-wndrmacv2.img"
         }
       ]
     },
@@ -83,184 +83,185 @@
         {
           "name": "CPE 210",
           "image": {
-            "Revision 1.0": "gluon-ddorf-v1.2.5-r2-tp-link-cpe210-v1.0.bin",
-            "Revision 1.1": "gluon-ddorf-v1.2.5-r2-tp-link-cpe210-v1.1.bin"
+            "Revision 1.0": "gluon-ddorf-v1.2.7-r4-tp-link-cpe210-v1.0.bin",
+            "Revision 1.1": "gluon-ddorf-v1.2.7-r4-tp-link-cpe210-v1.1.bin"
           }
         },
         {
           "name": "CPE 220",
           "image": {
-            "Revision 1.0": "gluon-ddorf-v1.2.5-r2-tp-link-cpe220-v1.0.bin",
-            "Revision 1.1": "gluon-ddorf-v1.2.5-r2-tp-link-cpe220-v1.1.bin"
+            "Revision 1.0": "gluon-ddorf-v1.2.7-r4-tp-link-cpe220-v1.0.bin",
+            "Revision 1.1": "gluon-ddorf-v1.2.7-r4-tp-link-cpe220-v1.1.bin"
           }
         },
         {
           "name": "CPE 510",
           "image": {
-            "Revision 1.0": "gluon-ddorf-v1.2.5-r2-tp-link-cpe510-v1.0.bin",
-            "Revision 1.1": "gluon-ddorf-v1.2.5-r2-tp-link-cpe510-v1.1.bin"
+            "Revision 1.0": "gluon-ddorf-v1.2.7-r4-tp-link-cpe510-v1.0.bin",
+            "Revision 1.1": "gluon-ddorf-v1.2.7-r4-tp-link-cpe510-v1.1.bin"
           }
         },
         {
           "name": "CPE 520",
           "image": {
-            "Revision 1.0": "gluon-ddorf-v1.2.5-r2-tp-link-cpe520-v1.0.bin",
-            "Revision 1.1": "gluon-ddorf-v1.2.5-r2-tp-link-cpe520-v1.1.bin"
+            "Revision 1.0": "gluon-ddorf-v1.2.7-r4-tp-link-cpe520-v1.0.bin",
+            "Revision 1.1": "gluon-ddorf-v1.2.7-r4-tp-link-cpe520-v1.1.bin"
           }
         },
         {
           "name": "tl-mr3020",
-          "image": "gluon-ddorf-v1.2.5-r2-tp-link-tl-mr3020-v1.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-tp-link-tl-mr3020-v1.bin"
         },
         {
           "name": "tl-mr3040",
           "image": {
-            "Revision 1": "gluon-ddorf-v1.2.5-r2-tp-link-tl-mr3040-v1.bin",
-            "Revision 2": "gluon-ddorf-v1.2.5-r2-tp-link-tl-mr3040-v2.bin"
+            "Revision 1": "gluon-ddorf-v1.2.7-r4-tp-link-tl-mr3040-v1.bin",
+            "Revision 2": "gluon-ddorf-v1.2.7-r4-tp-link-tl-mr3040-v2.bin"
           }
         },
         {
           "name": "tl-mr3220",
           "image": {
-            "Revision 1": "gluon-ddorf-v1.2.5-r2-tp-link-tl-mr3220-v1.bin",
-            "Revision 2": "gluon-ddorf-v1.2.5-r2-tp-link-tl-mr3220-v2.bin"
+            "Revision 1": "gluon-ddorf-v1.2.7-r4-tp-link-tl-mr3220-v1.bin",
+            "Revision 2": "gluon-ddorf-v1.2.7-r4-tp-link-tl-mr3220-v2.bin"
           }
         },
         {
           "name": "tl-mr3420",
           "image": {
-            "Revision 1": "gluon-ddorf-v1.2.5-r2-tp-link-tl-mr3420-v1.bin",
-            "Revision 2": "gluon-ddorf-v1.2.5-r2-tp-link-tl-mr3420-v2.bin"
+            "Revision 1": "gluon-ddorf-v1.2.7-r4-tp-link-tl-mr3420-v1.bin",
+            "Revision 2": "gluon-ddorf-v1.2.7-r4-tp-link-tl-mr3420-v2.bin"
           }
         },
         {
           "name": "tl-wa701n-nd",
           "image": {
-            "Revision 1": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wa701n-nd-v1.bin",
-            "Revision 2": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wa701n-nd-v2.bin"
+            "Revision 1": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wa701n-nd-v1.bin",
+            "Revision 2": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wa701n-nd-v2.bin"
           }
         },
         {
           "name": "tl-wa750re",
-          "image": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wa750re-v1.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wa750re-v1.bin"
         },
         {
           "name": "tl-wa801n-nd",
           "image": {
-            "Revision 1": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wa801n-nd-v1.bin",
-            "Revision 2": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wa801n-nd-v2.bin"
+            "Revision 1": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wa801n-nd-v1.bin",
+            "Revision 2": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wa801n-nd-v2.bin"
           }
         },
         {
           "name": "tl-wa830re",
           "image": {
-            "Revision 1": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wa830re-v1.bin",
-            "Revision 2": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wa830re-v2.bin"
+            "Revision 1": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wa830re-v1.bin",
+            "Revision 2": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wa830re-v2.bin"
           }
         },
         {
           "name": "tl-wa850re",
-          "image": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wa850re-v1.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wa850re-v1.bin"
         },
         {
           "name": "tl-wa860re",
-          "image": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wa860re-v1.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wa860re-v1.bin"
         },
         {
           "name": "tl-wa901n-nd",
           "image": {
-            "Revision 2": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wa901n-nd-v2.bin",
-            "Revision 3": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wa901n-nd-v3.bin"
+            "Revision 2": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wa901n-nd-v2.bin",
+            "Revision 3": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wa901n-nd-v3.bin"
           }
         },
         {
           "name": "tl-wdr3500",
-          "image": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wdr3500-v1.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wdr3500-v1.bin"
         },
         {
           "name": "tl-wdr3600",
-          "image": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wdr3600-v1.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wdr3600-v1.bin"
         },
         {
           "name": "tl-wdr4300",
-          "image": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wdr4300-v1.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wdr4300-v1.bin"
         },
         {
           "name": "tl-wdr4900",
-          "image": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wdr4900-v1.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wdr4900-v1.bin"
         },
         {
           "name": "tl-wr1043n-nd",
           "image": {
-            "Revision 1": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr1043n-nd-v1.bin",
-            "Revision 2": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr1043n-nd-v2.bin",
-            "Revision 3": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr1043n-nd-v3.bin"
+            "Revision 1": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr1043n-nd-v1.bin",
+            "Revision 2": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr1043n-nd-v2.bin",
+            "Revision 3": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr1043n-nd-v3.bin"
           }
         },
         {
           "name": "tl-wr2543n-nd",
-          "image": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr2543n-nd-v1.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr2543n-nd-v1.bin"
         },
         {
           "name": "tl-wr703n",
-          "image": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr703n-v1.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr703n-v1.bin"
         },
         {
           "name": "tl-wr710n",
           "image": {
-            "Revision 1": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr710n-v1.bin"
+            "Revision 1": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr710n-v1.bin"
           }
         },
         {
           "name": "tl-wr740n-nd",
           "image": {
-            "Revision 1": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr740n-nd-v1.bin",
-            "Revision 3": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr740n-nd-v3.bin",
-            "Revision 4": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr740n-nd-v4.bin",
-            "Revision 5": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr740n-nd-v5.bin"
+            "Revision 1": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr740n-nd-v1.bin",
+            "Revision 3": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr740n-nd-v3.bin",
+            "Revision 4": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr740n-nd-v4.bin",
+            "Revision 5": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr740n-nd-v5.bin"
           }
         },
         {
           "name": "tl-wr741n-nd",
           "image": {
-            "Revision 1": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr741n-nd-v1.bin",
-            "Revision 2": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr741n-nd-v2.bin",
-            "Revision 4": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr741n-nd-v4.bin",
-            "Revision 5": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr741n-nd-v5.bin"
+            "Revision 1": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr741n-nd-v1.bin",
+            "Revision 2": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr741n-nd-v2.bin",
+            "Revision 4": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr741n-nd-v4.bin",
+            "Revision 5": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr741n-nd-v5.bin"
           }
         },
         {
           "name": "tl-wr743n-nd",
           "image": {
-            "Revision 1": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr743n-nd-v1.bin",
-            "Revision 2": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr743n-nd-v2.bin"
+            "Revision 1": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr743n-nd-v1.bin",
+            "Revision 2": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr743n-nd-v2.bin"
           }
         },
         {
           "name": "tl-wr841n-nd",
           "image": {
-            "Revision 3": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr841n-nd-v3.bin",
-            "Revision 5": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr841n-nd-v5.bin",
-            "Revision 7": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr841n-nd-v7.bin",
-            "Revision 8": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr841n-nd-v8.bin",
-            "Revision 9": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr841n-nd-v9.bin",
-            "Revision 10": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr841n-nd-v10.bin"
+            "Revision 3": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr841n-nd-v3.bin",
+            "Revision 5": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr841n-nd-v5.bin",
+            "Revision 7": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr841n-nd-v7.bin",
+            "Revision 8": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr841n-nd-v8.bin",
+            "Revision 9": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr841n-nd-v9.bin",
+            "Revision 10": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr841n-nd-v10.bin",
+            "Revision 11": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr841n-nd-v11.bin"
           }
         },
         {
           "name": "tl-wr842n-nd",
           "image": {
-            "Revision 1": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr842n-nd-v1.bin",
-            "Revision 2": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr842n-nd-v2.bin"
+            "Revision 1": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr842n-nd-v1.bin",
+            "Revision 2": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr842n-nd-v2.bin"
           }
         },
         {
           "name": "tl-wr941n-nd",
           "image": {
-            "Revision 2": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr941n-nd-v2.bin",
-            "Revision 3": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr941n-nd-v3.bin",
-            "Revision 4": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr941n-nd-v4.bin",
-            "Revision 5": "gluon-ddorf-v1.2.5-r2-tp-link-tl-wr941n-nd-v5.bin"
+            "Revision 2": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr941n-nd-v2.bin",
+            "Revision 3": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr941n-nd-v3.bin",
+            "Revision 4": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr941n-nd-v4.bin",
+            "Revision 5": "gluon-ddorf-v1.2.7-r4-tp-link-tl-wr941n-nd-v5.bin"
           }
         }
       ]
@@ -270,43 +271,43 @@
       "models": [
         {
           "name": "Bullet M",
-          "image": "gluon-ddorf-v1.2.5-r2-ubiquiti-bullet-m.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-ubiquiti-bullet-m.bin"
         },
         {
           "name": "Loco M-XW",
-          "image": "gluon-ddorf-v1.2.5-r2-ubiquiti-loco-m-xw.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-ubiquiti-loco-m-xw.bin"
         },
         {
           "name": "Loco M",
-          "image": "gluon-ddorf-v1.2.5-r2-ubiquiti-loco-m.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-ubiquiti-loco-m.bin"
         },
         {
           "name": "nanostation m-xw",
-          "image": "gluon-ddorf-v1.2.5-r2-ubiquiti-nanostation-m-xw.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-ubiquiti-nanostation-m-xw.bin"
         },
         {
           "name": "nanostation m",
-          "image": "gluon-ddorf-v1.2.5-r2-ubiquiti-nanostation-m.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-ubiquiti-nanostation-m.bin"
         },
         {
           "name": "picostation m",
-          "image": "gluon-ddorf-v1.2.5-r2-ubiquiti-picostation-m.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-ubiquiti-picostation-m.bin"
         },
         {
           "name": "Rocket M",
-          "image": "gluon-ddorf-v1.2.5-r2-ubiquiti-rocket-m.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-ubiquiti-rocket-m.bin"
         },
         {
           "name": "Unifi AP-Pro",
-          "image": "gluon-ddorf-v1.2.5-r2-ubiquiti-unifi-ap-pro.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-ubiquiti-unifi-ap-pro.bin"
         },
         {
           "name": "Unifi AP-Outdoor",
-          "image": "gluon-ddorf-v1.2.5-r2-ubiquiti-unifiap-outdoor.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-ubiquiti-unifiap-outdoor.bin"
         },
         {
           "name": "Unifi",
-          "image": "gluon-ddorf-v1.2.5-r2-ubiquiti-unifi.bin"
+          "image": "gluon-ddorf-v1.2.7-r4-ubiquiti-unifi.bin"
         }
       ]
     }
