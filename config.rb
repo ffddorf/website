@@ -98,4 +98,5 @@ configure :build do
   # Or use a different image path
   set :http_path, "/img/"
 
+  activate :gzip
 end
