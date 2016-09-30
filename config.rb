@@ -97,12 +97,5 @@ configure :build do
 
   # Or use a different image path
   set :http_path, "/img/"
-end
 
-activate :deploy do |deploy|
-  deploy.method = :rsync
-  deploy.host = "cepheus.uberspace.de"
-  deploy.path = "html"
-  deploy.clean = true
-  deploy.user = "ffddorf"
 end
