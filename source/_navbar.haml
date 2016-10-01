@@ -1,13 +1,13 @@
-.navbar.navbar-default( role="navigation" )
+.navbar.navbar-default#navbar( role="navigation" )
   .container
-    .navbar-header( style="min-height: 6em" )
+    .navbar-header
       %button( type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav" )
         %span.sr-only Toggle navigation
         %span.icon-bar
         %span.icon-bar
         %span.icon-bar
       %a.navbar-brand( href="/" )
-        = image_tag("freifunk-ddorf.svg", style: "height: 3em", alt: "Freifunk Düsseldorf")
+        = image_tag("freifunk-ddorf.svg", alt: "Freifunk Düsseldorf")
     .collapse.navbar-collapse#nav
       %ul.nav.navbar-nav
         = nav_li( "Start", "/" )

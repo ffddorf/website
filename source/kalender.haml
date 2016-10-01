@@ -4,10 +4,10 @@ name: "kalender"
 
 - content_for :head do
   = stylesheet_link_tag( "//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.0.1/fullcalendar.min.css" );
-  = javascript_include_tag( "//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js");
-  = javascript_include_tag( "//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.0.1/fullcalendar.js");
-  = javascript_include_tag( "//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.0.1/gcal.js");
-  = javascript_include_tag( "//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.0.1/locale/de.js");
+  = javascript_include_tag( "//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js", :async => true);
+  = javascript_include_tag( "//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.0.1/fullcalendar.js", :async => true);
+  = javascript_include_tag( "//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.0.1/gcal.js", :async => true);
+  = javascript_include_tag( "//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.0.1/locale/de.js", :async => true);
 
 #calendar
 

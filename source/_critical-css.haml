@@ -1,9 +1,17 @@
 :sass
-  li
-    padding-top: 32px
+  @import "compass/css3/transition"
+  #main
+    opacity: 0
+    @include single-transition(opacity, 0.1s ease-out)
   .fc-event
     text-decoration: none !important
   .fc-event .fc-content
     font-size: 16px
   .fc-day-grid-event .fc-content
     white-space: normal
+  .navbar-header
+    height: 64px
+  .navbar-brand img
+    height: 48px
+  .navbar-nav
+    padding-top: 30px

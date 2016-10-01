@@ -8,11 +8,13 @@
     %link( rel="apple-touch-icon" type="image/png" href="/img/freifunk.png" )
     %title= data.page.title || "Freifunk Düsseldorf"
     = partial "critical-css"
-    = stylesheet_link_tag "all"
     = javascript_include_tag "all", :async => true
+    %noscript#deferred-styles
+      = stylesheet_link_tag "all"
     = yield_content :head
+    = partial "load-deferred-styles"
   %body
-    = partial "navbar"
-    .container
-      = yield
-  :javascript
+    #main
+      = partial "navbar"
+      .container
+        = yield
