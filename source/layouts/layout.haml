@@ -7,18 +7,12 @@
     %link( rel="icon" type="image/png" href="/img/freifunk.png" )
     %link( rel="apple-touch-icon" type="image/png" href="/img/freifunk.png" )
     %title= data.page.title || "Freifunk Düsseldorf"
-    = yield_content :head
     = partial "critical-css"
+    = stylesheet_link_tag "all"
+    = javascript_include_tag "all"
+    = yield_content :head
   %body
     = partial "navbar"
     .container
       = yield
-  %script( async src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" )
-  %script( async src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" )
-  %script( async src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js" )
-  %script( async src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.4.0/fullcalendar.min.js" )
-  %script( async src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.4.0/lang/de.min.js" )
-  %script( async src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.4.0/gcal.min.js" )
-  = javascript_include_tag "loadcss"
-  = javascript_include_tag "analytics"
-  = javascript_include_tag "calendar"
+  :javascript
