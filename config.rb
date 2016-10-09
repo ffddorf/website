@@ -3,8 +3,6 @@ compass_config do |config|
   config.output_style = :compact
 end
 
-require 'font-awesome-sass'
-
 helpers do
   def nav_li(text, url)
     trailurl = url
