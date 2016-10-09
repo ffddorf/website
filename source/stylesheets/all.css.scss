@@ -1,6 +1,5 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import "font-awesome-sprockets";
 @import "font-awesome";
 
 @import url(//fonts.googleapis.com/css?family=Lato:300,400);
@@ -11,4 +10,4 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-@import "fullcalendar"
+@import "fullcalendar.css";

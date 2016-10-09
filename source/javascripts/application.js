@@ -1,9 +1,3 @@
-//= require jquery
-//= require bootstrap-sprockets
-//= require moment.js
-//= require fullcalendar.js
-//= require gcal.js
-
 $(document).ready(function() {
   $('#calendar').fullCalendar({
     googleCalendarApiKey: 'AIzaSyCd4qpRTufHOrQPmxMP086FZ8r1EhJNiaQ',
