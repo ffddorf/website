@@ -1,7 +1,4 @@
-###
-# Compass
-###
-
+# use Compass for advanced CSS
 compass_config do |config|
   config.output_style = :compact
   config.http_path = "/"
