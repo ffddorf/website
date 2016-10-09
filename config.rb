@@ -1,9 +1,6 @@
 # use Compass for advanced CSS
 compass_config do |config|
   config.output_style = :compact
-  config.http_path = "/"
-  config.images_dir = "img"
-  config.javascripts_dir = "js"
 end
 
 require 'font-awesome-sass'
@@ -21,12 +18,6 @@ helpers do
   end
 end
 
-set :css_dir, 'stylesheets'
-
-set :js_dir, 'js'
-
-set :images_dir, 'img'
-
 activate :directory_indexes
 
 configure :build do
@@ -34,7 +25,6 @@ configure :build do
   activate :minify_javascript
   activate :relative_assets
   activate :asset_hash
-  activate :gzip
 end
 
 # deploy Netlify redirects file
