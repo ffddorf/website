@@ -1,0 +1,2 @@
+# redirect to remove trailing slashes
+/:page/ /:page 301
