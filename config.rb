@@ -36,3 +36,9 @@ configure :build do
   activate :asset_hash
   activate :gzip
 end
+
+# deploy Netlify redirects file
+page 'redirects', :layout => false
+after_build do
+  File.rename 'build/redirects', 'build/_redirects'
+end
