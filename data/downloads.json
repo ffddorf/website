@@ -1,5 +1,5 @@
 {
-  "base_url": "https://images.freifunk-duesseldorf.de/gluon/stable/factory/",
+  "base_url": "https://images.freifunk-duesseldorf.de/gluon",
   "prefix": "gluon-ddorf",
   "version": "v1.2.7-r4",
   "images": [
@@ -196,8 +196,7 @@
           "name": "tl-wr1043n-nd",
           "image": {
             "Revision 1": "tp-link-tl-wr1043n-nd-v1.bin",
-            "Revision 2": "tp-link-tl-wr1043n-nd-v2.bin",
-            "Revision 3": "tp-link-tl-wr1043n-nd-v3.bin"
+            "Revision 2": "tp-link-tl-wr1043n-nd-v2.bin"
           }
         },
         {
@@ -247,8 +246,7 @@
             "Revision 7": "tp-link-tl-wr841n-nd-v7.bin",
             "Revision 8": "tp-link-tl-wr841n-nd-v8.bin",
             "Revision 9": "tp-link-tl-wr841n-nd-v9.bin",
-            "Revision 10": "tp-link-tl-wr841n-nd-v10.bin",
-            "Revision 11": "tp-link-tl-wr841n-nd-v11.bin"
+            "Revision 10": "tp-link-tl-wr841n-nd-v10.bin"
           }
         },
         {
