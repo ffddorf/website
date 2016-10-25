@@ -15,9 +15,10 @@ title: Download - Freifunk Düsseldorf
         %p
           =model.name.upcase
       .col-sm-8.col-md-9
+        - file_base = "#{data.downloads.base_url}/#{data.downloads.version}/factory/#{data.downloads.prefix}-#{data.downloads.version}"
         - if model.image.is_a? Hash
           - model.image.each do |revision,image|
-            %a.btn.btn-default( href="#{data.downloads.base_url}#{data.downloads.prefix}-#{data.downloads.version}-#{image}" )
+            %a.btn.btn-default( href="#{file_base}-#{image}" )
               =revision
         - else
-          %a.btn.btn-default( href="#{data.downloads.base_url}#{data.downloads.prefix}-#{data.downloads.version}-#{model.image}" ) Download
+          %a.btn.btn-default( href="#{file_base}-#{model.image}" ) Download
