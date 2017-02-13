@@ -2,11 +2,30 @@
 title: Download - Freifunk Düsseldorf
 ---
 
+- file_base = "#{data.downloads.base_url}/#{data.downloads.version}/factory/#{data.downloads.prefix}-#{data.downloads.version}"
+
 %h1 Download
-%p.lead Freie Software für Freie Netze!
-%p
-  Aktuell verwenden wir
-  = link_to "Gluon 2016.2.2", "https://github.com/freifunk-gluon/gluon"
+.row
+  .col-sm-6
+    %p.lead Freie Software für Freie Netze!
+    %p
+      Aktuell verwenden wir
+      = link_to "Gluon 2016.2.2", "https://github.com/freifunk-gluon/gluon"
+
+  .col-sm-6
+    .panel.panel-info
+      .panel-heading
+        %h3.panel-title
+          %span.glyphicon.glyphicon-star
+          Beliebte Geräte
+      %ul.list-group
+        %li.list-group-item
+          %a.btn.btn-link( href="#{file_base}-tp-link-tl-wr841n-nd-v11.bin" )
+            TP-Link TL-WR841N(D) v11
+        %li.list-group-item
+          %a.btn.btn-link( href="#{file_base}-tp-link-tl-wr1043n-nd-v3.bin" )
+            TP-Link TL-WR1043N(D) v3
+
 - data.downloads.images.each do |profile|
   %h3= profile.brand
   - profile.models.each do |model|
@@ -15,7 +34,6 @@ title: Download - Freifunk Düsseldorf
         %p
           =model.name.upcase
       .col-sm-8.col-md-9
-        - file_base = "#{data.downloads.base_url}/#{data.downloads.version}/factory/#{data.downloads.prefix}-#{data.downloads.version}"
         - if model.image.is_a? Hash
           - model.image.each do |revision,image|
             %a.btn.btn-default( href="#{file_base}-#{image}" )
