@@ -1,17 +1,54 @@
 {
   "base_url": "https://images.freifunk-duesseldorf.de/gluon",
   "prefix": "gluon-ddorf",
-  "version": "v1.2.7-r4",
+  "version": "v1.4.2-74",
   "images": [
+    {
+      "brand": "ALFA Network",
+      "models": [
+        {
+          "name": "ap121",
+          "image": "alfa-network-ap121.bin"
+        },
+        {
+          "name": "ap121u",
+          "image": "alfa-network-ap121u.bin"
+        },
+        {
+          "name": "hornet-ub",
+          "image": "alfa-network-hornet-ub.bin"
+        },
+        {
+          "name": "n2 / n5",
+          "image": "alfa-network-n2-n5.bin"
+        },
+        {
+          "name": "tube2h",
+          "image": "alfa-network-tube2h.bin"
+        }
+      ]
+    },
     {
       "brand": "Buffalo",
       "models": [
         {
-          "name": "wzr-ag300h / wzr-600dhp",
-          "image": "buffalo-wzr-hp-ag300h-wzr-600dhp.bin"
+          "name": "wzr-600dhp",
+          "image": "buffalo-wzr-600dhp.bin"
         },
         {
-          "name": "hp-g450h",
+          "name": "wzr-hp-ag300h",
+          "image": "buffalo-wzr-hp-ag300h.bin"
+        },
+        {
+          "name": "wzr-hp-g300nh",
+          "image": "buffalo-wzr-hp-g300nh.bin"
+        },
+        {
+          "name": "wzr-hp-g300nh2",
+          "image": "buffalo-wzr-hp-g300nh2.bin"
+        },
+        {
+          "name": "wzr-hp-g450h",
           "image": "buffalo-wzr-hp-g450h.bin"
         }
       ]
@@ -19,6 +56,13 @@
     {
       "brand": "D-Link",
       "models": [
+        {
+          "name": "dir-505",
+          "image": {
+            "Revision A1": "d-link-dir-505-rev-a1.bin",
+            "Revision A2": "d-link-dir-505-rev-a2.bin"
+          }
+        },
         {
           "name": "dir-615",
           "image": {
@@ -61,9 +105,9 @@
         {
           "name": "wndr3700",
           "image": {
-            "Revision 1": "netgear-wndr3700.img",
-            "Revision 2": "netgear-wndr3700v2.img",
-            "Revision 4": "netgear-wndr3700v4.img"
+            "Version 1": "netgear-wndr3700.img",
+            "Version 2": "netgear-wndr3700v2.img",
+            "Version 4": "netgear-wndr3700v4.img"
           }
         },
         {
@@ -81,188 +125,332 @@
       ]
     },
     {
+      "brand": "Onion",
+      "models": [
+        {
+          "name": "omega",
+          "image": "onion-omega.bin"
+        }
+      ]
+    },
+    {
+      "brand": "OpenMesh",
+      "models": [
+        {
+          "name": "mr1750",
+          "image": {
+            "Version 1": "openmesh-mr1750.bin",
+            "Version 2": "openmesh-mr1750v2.bin"
+          }
+        },
+        {
+          "name": "mr600",
+          "image": {
+            "Version 1": "openmesh-mr600.bin",
+            "Version 2": "openmesh-mr600v2.bin"
+          }
+        },
+        {
+          "name": "mr900",
+          "image": {
+            "Version 1": "openmesh-mr900.bin",
+            "Version 2": "openmesh-mr900v2.bin"
+          }
+        },
+        {
+          "name": "om2p hs",
+          "image": {
+            "Version 1": "openmesh-om2p-hs.bin",
+            "Version 2": "openmesh-om2p-hsv2.bin",
+            "Version 3": "openmesh-om2p-hsv3.bin"
+          }
+        },
+        {
+          "name": "om2p",
+          "image": {
+            "Default": "openmesh-om2p.bin",
+            "LC": "openmesh-om2p-lc.bin",
+            "Version 2": "openmesh-om2pv2.bin"
+          }
+        },
+        {
+          "name": "om5p",
+          "image": {
+            "Default": "openmesh-om5p.bin",
+            "AC": "openmesh-om5p-ac.bin",
+            "AC v2": "openmesh-om5p-acv2.bin",
+            "AN": "openmesh-om5p-an.bin"
+          }
+        }
+      ]
+    },
+    {
+      "brand": "ARM",
+      "models": [
+        {
+          "name": "Raspberry Pi",
+          "image": {
+            "Rev. 1": "raspberry-pi.img.gz",
+            "Rev. 2": "raspberry-pi-2.img.gz"
+          }
+        }
+      ]
+    },
+    {
       "brand": "TP-Link",
       "models": [
         {
-          "name": "CPE 210",
+          "name": "archer c5",
           "image": {
-            "Revision 1.0": "tp-link-cpe210-v1.0.bin",
-            "Revision 1.1": "tp-link-cpe210-v1.1.bin"
+            "Version 1": "tp-link-archer-c5-v1.bin"
           }
         },
         {
-          "name": "CPE 220",
+          "name": "archer c7",
           "image": {
-            "Revision 1.0": "tp-link-cpe220-v1.0.bin",
-            "Revision 1.1": "tp-link-cpe220-v1.1.bin"
+            "Version 2": "tp-link-archer-c7-v2.bin"
           }
         },
         {
-          "name": "CPE 510",
+          "name": "cpe210",
           "image": {
-            "Revision 1.0": "tp-link-cpe510-v1.0.bin",
-            "Revision 1.1": "tp-link-cpe510-v1.1.bin"
+            "Version 1.0": "tp-link-cpe210-v1.0.bin",
+            "Version 1.1": "tp-link-cpe210-v1.1.bin"
           }
         },
         {
-          "name": "CPE 520",
+          "name": "cpe220",
           "image": {
-            "Revision 1.0": "tp-link-cpe520-v1.0.bin",
-            "Revision 1.1": "tp-link-cpe520-v1.1.bin"
+            "Version 1.0": "tp-link-cpe220-v1.0.bin",
+            "Version 1.1": "tp-link-cpe220-v1.1.bin"
+          }
+        },
+        {
+          "name": "cpe510",
+          "image": {
+            "Version 1.0": "tp-link-cpe510-v1.0.bin",
+            "Version 1.1": "tp-link-cpe510-v1.1.bin"
+          }
+        },
+        {
+          "name": "cpe520",
+          "image": {
+            "Version 1.0": "tp-link-cpe520-v1.0.bin",
+            "Version 1.1": "tp-link-cpe520-v1.1.bin"
+          }
+        },
+        {
+          "name": "tl-mr13u",
+          "image": {
+            "Version 1": "tp-link-tl-mr13u-v1.bin"
           }
         },
         {
           "name": "tl-mr3020",
-          "image": "tp-link-tl-mr3020-v1.bin"
+          "image": {
+            "Version 1": "tp-link-tl-mr3020-v1.bin"
+          }
         },
         {
           "name": "tl-mr3040",
           "image": {
-            "Revision 1": "tp-link-tl-mr3040-v1.bin",
-            "Revision 2": "tp-link-tl-mr3040-v2.bin"
+            "Version 1": "tp-link-tl-mr3040-v1.bin",
+            "Version 2": "tp-link-tl-mr3040-v2.bin"
           }
         },
         {
           "name": "tl-mr3220",
           "image": {
-            "Revision 1": "tp-link-tl-mr3220-v1.bin",
-            "Revision 2": "tp-link-tl-mr3220-v2.bin"
+            "Version 1": "tp-link-tl-mr3220-v1.bin",
+            "Version 2": "tp-link-tl-mr3220-v2.bin"
           }
         },
         {
           "name": "tl-mr3420",
           "image": {
-            "Revision 1": "tp-link-tl-mr3420-v1.bin",
-            "Revision 2": "tp-link-tl-mr3420-v2.bin"
+            "Version 1": "tp-link-tl-mr3420-v1.bin",
+            "Version 2": "tp-link-tl-mr3420-v2.bin"
           }
         },
         {
           "name": "tl-wa701n-nd",
           "image": {
-            "Revision 1": "tp-link-tl-wa701n-nd-v1.bin",
-            "Revision 2": "tp-link-tl-wa701n-nd-v2.bin"
+            "Version 1": "tp-link-tl-wa701n-nd-v1.bin",
+            "Version 2": "tp-link-tl-wa701n-nd-v2.bin"
           }
         },
         {
           "name": "tl-wa750re",
-          "image": "tp-link-tl-wa750re-v1.bin"
+          "image": {
+            "Version 1": "tp-link-tl-wa750re-v1.bin"
+          }
+        },
+        {
+          "name": "tl-wa7510n",
+          "image": {
+            "Version 1": "tp-link-tl-wa7510n-v1.bin"
+          }
         },
         {
           "name": "tl-wa801n-nd",
           "image": {
-            "Revision 1": "tp-link-tl-wa801n-nd-v1.bin",
-            "Revision 2": "tp-link-tl-wa801n-nd-v2.bin"
+            "Version 1": "tp-link-tl-wa801n-nd-v1.bin"
+          }
+        },
+        {
+          "name": "tl-wa801n-nd",
+          "image": {
+            "Version 2": "tp-link-tl-wa801n-nd-v2.bin",
+            "Version 3": "tp-link-tl-wa801n-nd-v3.bin"
           }
         },
         {
           "name": "tl-wa830re",
           "image": {
-            "Revision 1": "tp-link-tl-wa830re-v1.bin",
-            "Revision 2": "tp-link-tl-wa830re-v2.bin"
+            "Version 1": "tp-link-tl-wa830re-v1.bin",
+            "Version 2": "tp-link-tl-wa830re-v2.bin"
           }
         },
         {
           "name": "tl-wa850re",
-          "image": "tp-link-tl-wa850re-v1.bin"
+          "image": {
+            "Version 1": "tp-link-tl-wa850re-v1.bin"
+          }
         },
         {
           "name": "tl-wa860re",
-          "image": "tp-link-tl-wa860re-v1.bin"
+          "image": {
+            "Version 1": "tp-link-tl-wa860re-v1.bin"
+          }
         },
         {
           "name": "tl-wa901n-nd",
           "image": {
-            "Revision 2": "tp-link-tl-wa901n-nd-v2.bin",
-            "Revision 3": "tp-link-tl-wa901n-nd-v3.bin"
+            "Version 1": "tp-link-tl-wa901n-nd-v1.bin",
+            "Version 2": "tp-link-tl-wa901n-nd-v2.bin",
+            "Version 3": "tp-link-tl-wa901n-nd-v3.bin",
+            "Version 4": "tp-link-tl-wa901n-nd-v4.bin"
           }
         },
         {
           "name": "tl-wdr3500",
-          "image": "tp-link-tl-wdr3500-v1.bin"
+          "image": {
+            "Version 1": "tp-link-tl-wdr3500-v1.bin"
+          }
         },
         {
           "name": "tl-wdr3600",
-          "image": "tp-link-tl-wdr3600-v1.bin"
+          "image": {
+            "Version 1": "tp-link-tl-wdr3600-v1.bin"
+          }
         },
         {
           "name": "tl-wdr4300",
-          "image": "tp-link-tl-wdr4300-v1.bin"
+          "image": {
+            "Version 1": "tp-link-tl-wdr4300-v1.bin"
+          }
         },
         {
           "name": "tl-wdr4900",
-          "image": "tp-link-tl-wdr4900-v1.bin"
+          "image": {
+            "Version 1": "tp-link-tl-wdr4900-v1.bin"
+          }
         },
         {
           "name": "tl-wr1043n-nd",
           "image": {
-            "Revision 1": "tp-link-tl-wr1043n-nd-v1.bin",
-            "Revision 2": "tp-link-tl-wr1043n-nd-v2.bin"
+            "Version 1": "tp-link-tl-wr1043n-nd-v1.bin",
+            "Version 2": "tp-link-tl-wr1043n-nd-v2.bin",
+            "Version 3": "tp-link-tl-wr1043n-nd-v3.bin"
           }
         },
         {
           "name": "tl-wr2543n-nd",
-          "image": "tp-link-tl-wr2543n-nd-v1.bin"
+          "image": {
+            "Version 1": "tp-link-tl-wr2543n-nd-v1.bin"
+          }
         },
         {
           "name": "tl-wr703n",
-          "image": "tp-link-tl-wr703n-v1.bin"
+          "image": {
+            "Version 1": "tp-link-tl-wr703n-v1.bin"
+          }
         },
         {
-          "name": "tl-wr710n",
+          "name": "tl-wr710n-v1",
           "image": {
-            "Revision 1": "tp-link-tl-wr710n-v1.bin"
+            "Version 1": "tp-link-tl-wr710n-v1.bin",
+            "Version 2": "tp-link-tl-wr710n-v2.bin",
+            "Version 2.1": "tp-link-tl-wr710n-v2.1.bin"
           }
         },
         {
           "name": "tl-wr740n-nd",
           "image": {
-            "Revision 1": "tp-link-tl-wr740n-nd-v1.bin",
-            "Revision 3": "tp-link-tl-wr740n-nd-v3.bin",
-            "Revision 4": "tp-link-tl-wr740n-nd-v4.bin",
-            "Revision 5": "tp-link-tl-wr740n-nd-v5.bin"
+            "Version 1": "tp-link-tl-wr740n-nd-v1.bin",
+            "Version 3": "tp-link-tl-wr740n-nd-v3.bin",
+            "Version 4": "tp-link-tl-wr740n-nd-v4.bin",
+            "Version 5": "tp-link-tl-wr740n-nd-v5.bin"
           }
         },
         {
           "name": "tl-wr741n-nd",
           "image": {
-            "Revision 1": "tp-link-tl-wr741n-nd-v1.bin",
-            "Revision 2": "tp-link-tl-wr741n-nd-v2.bin",
-            "Revision 4": "tp-link-tl-wr741n-nd-v4.bin",
-            "Revision 5": "tp-link-tl-wr741n-nd-v5.bin"
+            "Version 1": "tp-link-tl-wr741n-nd-v1.bin",
+            "Version 2": "tp-link-tl-wr741n-nd-v2.bin",
+            "Version 4": "tp-link-tl-wr741n-nd-v4.bin",
+            "Version 5": "tp-link-tl-wr741n-nd-v5.bin"
           }
         },
         {
           "name": "tl-wr743n-nd",
           "image": {
-            "Revision 1": "tp-link-tl-wr743n-nd-v1.bin",
-            "Revision 2": "tp-link-tl-wr743n-nd-v2.bin"
+            "Version 1": "tp-link-tl-wr743n-nd-v1.bin",
+            "Version 2": "tp-link-tl-wr743n-nd-v2.bin"
           }
         },
         {
           "name": "tl-wr841n-nd",
           "image": {
-            "Revision 3": "tp-link-tl-wr841n-nd-v3.bin",
-            "Revision 5": "tp-link-tl-wr841n-nd-v5.bin",
-            "Revision 7": "tp-link-tl-wr841n-nd-v7.bin",
-            "Revision 8": "tp-link-tl-wr841n-nd-v8.bin",
-            "Revision 9": "tp-link-tl-wr841n-nd-v9.bin",
-            "Revision 10": "tp-link-tl-wr841n-nd-v10.bin"
+            "Version 3": "tp-link-tl-wr841n-nd-v3.bin",
+            "Version 5": "tp-link-tl-wr841n-nd-v5.bin",
+            "Version 7": "tp-link-tl-wr841n-nd-v7.bin",
+            "Version 8": "tp-link-tl-wr841n-nd-v8.bin",
+            "Version 9": "tp-link-tl-wr841n-nd-v9.bin",
+            "Version 10": "tp-link-tl-wr841n-nd-v10.bin",
+            "Version 11": "tp-link-tl-wr841n-nd-v11.bin"
           }
         },
         {
           "name": "tl-wr842n-nd",
           "image": {
-            "Revision 1": "tp-link-tl-wr842n-nd-v1.bin",
-            "Revision 2": "tp-link-tl-wr842n-nd-v2.bin"
+            "Version 1": "tp-link-tl-wr842n-nd-v1.bin",
+            "Version 2": "tp-link-tl-wr842n-nd-v2.bin",
+            "Version 3": "tp-link-tl-wr842n-nd-v3.bin"
+          }
+        },
+        {
+          "name": "tl-wr843n-nd",
+          "image": {
+            "Version 1": "tp-link-tl-wr843n-nd-v1.bin"
+          }
+        },
+        {
+          "name": "tl-wr940n-nd",
+          "image": {
+            "Version 1": "tp-link-tl-wr940n-nd-v1.bin",
+            "Version 2": "tp-link-tl-wr940n-nd-v2.bin",
+            "Version 3": "tp-link-tl-wr940n-nd-v3.bin"
           }
         },
         {
           "name": "tl-wr941n-nd",
           "image": {
-            "Revision 2": "tp-link-tl-wr941n-nd-v2.bin",
-            "Revision 3": "tp-link-tl-wr941n-nd-v3.bin",
-            "Revision 4": "tp-link-tl-wr941n-nd-v4.bin",
-            "Revision 5": "tp-link-tl-wr941n-nd-v5.bin"
+            "Version 2": "tp-link-tl-wr941n-nd-v2.bin",
+            "Version 3": "tp-link-tl-wr941n-nd-v3.bin",
+            "Version 4": "tp-link-tl-wr941n-nd-v4.bin",
+            "Version 5": "tp-link-tl-wr941n-nd-v5.bin",
+            "Version 6": "tp-link-tl-wr941n-nd-v6.bin"
           }
         }
       ]
@@ -271,44 +459,97 @@
       "brand": "Ubiquiti",
       "models": [
         {
-          "name": "Bullet M",
-          "image": "ubiquiti-bullet-m.bin"
+          "name": "airgateway",
+          "image": "ubiquiti-airgateway.bin"
+        },
+        {
+          "name": "airrouter",
+          "image": "ubiquiti-airrouter.bin"
+        },
+        {
+          "name": "Bullet",
+          "image": {
+            "M": "ubiquiti-bullet-m.bin",
+            "M2": "ubiquiti-bullet-m2.bin",
+            "M5": "ubiquiti-bullet-m5.bin"
+          }
         },
         {
           "name": "Loco M-XW",
           "image": "ubiquiti-loco-m-xw.bin"
         },
         {
-          "name": "Loco M",
-          "image": "ubiquiti-loco-m.bin"
+          "name": "nanostation",
+          "image": {
+            "Loco M2": "ubiquiti-nanostation-loco-m2.bin",
+            "Loco M5": "ubiquiti-nanostation-loco-m5.bin",
+            "M-XW": "ubiquiti-nanostation-m-xw.bin",
+            "M": "ubiquiti-nanostation-m.bin",
+            "M2": "ubiquiti-nanostation-m2.bin",
+            "M5": "ubiquiti-nanostation-m5.bin"
+          }
         },
         {
-          "name": "nanostation m-xw",
-          "image": "ubiquiti-nanostation-m-xw.bin"
+          "name": "picostation m2",
+          "image": "ubiquiti-picostation-m2.bin"
         },
         {
-          "name": "nanostation m",
-          "image": "ubiquiti-nanostation-m.bin"
+          "name": "Rocket",
+          "image": {
+            "M-XW": "ubiquiti-rocket-m-xw.bin",
+            "M2": "ubiquiti-rocket-m2.bin",
+            "M5": "ubiquiti-rocket-m5.bin"
+          }
         },
         {
-          "name": "picostation m",
-          "image": "ubiquiti-picostation-m.bin"
-        },
-        {
-          "name": "Rocket M",
-          "image": "ubiquiti-rocket-m.bin"
-        },
-        {
-          "name": "Unifi AP-Pro",
+          "name": "unifi ap pro",
           "image": "ubiquiti-unifi-ap-pro.bin"
         },
         {
-          "name": "Unifi AP-Outdoor",
-          "image": "ubiquiti-unifiap-outdoor.bin"
+          "name": "unifi",
+          "image": "ubiquiti-unifi.bin"
         },
         {
-          "name": "Unifi",
-          "image": "ubiquiti-unifi.bin"
+          "name": "unifi ap outdoor+",
+          "image": "ubiquiti-unifiap-outdoor%2b.bin"
+        },
+        {
+          "name": "unifi ap outdoor",
+          "image": "ubiquiti-unifiap-outdoor.bin"
+        }
+      ]
+    },
+    {
+      "brand": "Western Digital",
+      "models": [
+        {
+          "name": "my net n600",
+          "image": "wd-my-net-n600.bin"
+        },
+        {
+          "name": "my net n750",
+          "image": "wd-my-net-n750.bin"
+        }
+      ]
+    },
+    {
+      "brand": "X86",
+      "models": [
+        {
+          "name": "generic",
+          "image": "x86-generic.img.gz"
+        },
+        {
+          "name": "kvm",
+          "image": "x86-kvm.img.gz"
+        },
+        {
+          "name": "virtualbox",
+          "image": "x86-virtualbox.vdi"
+        },
+        {
+          "name": "vmware",
+          "image": "x86-vmware.vmdk"
         }
       ]
     }
