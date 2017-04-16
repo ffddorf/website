@@ -7,3 +7,4 @@ gem "jquery-middleman"
 gem "sass-rails"
 gem "font-awesome-middleman"
 gem "middleman-data_source"
+gem 'html-proofer'

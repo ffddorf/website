@@ -37,3 +37,17 @@ page 'redirects', :layout => false
 after_build do
   File.rename 'build/redirects', 'build/_redirects'
 end
+
+require 'html-proofer'
+
+after_build do |builder|
+  begin
+    HTMLProofer.check_directory(config[:build_dir], {
+      :assume_extension => true,
+      :url_ignore => ["http://192.168.0.1"]
+    }).run
+  rescue RuntimeError => e
+    puts e
+    exit 1
+  end
+end
