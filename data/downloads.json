@@ -360,7 +360,8 @@
           "image": {
             "Version 1": "tp-link-tl-wr1043n-nd-v1.bin",
             "Version 2": "tp-link-tl-wr1043n-nd-v2.bin",
-            "Version 3": "tp-link-tl-wr1043n-nd-v3.bin"
+            "Version 3": "tp-link-tl-wr1043n-nd-v3.bin",
+            "Version 4": "tp-link-tl-wr1043n-nd-v4.bin"
           }
         },
         {
@@ -439,7 +440,8 @@
           "image": {
             "Version 1": "tp-link-tl-wr940n-nd-v1.bin",
             "Version 2": "tp-link-tl-wr940n-nd-v2.bin",
-            "Version 3": "tp-link-tl-wr940n-nd-v3.bin"
+            "Version 3": "tp-link-tl-wr940n-nd-v3.bin",
+            "Version 4": "tp-link-tl-wr940n-v4.bin"
           }
         },
         {
