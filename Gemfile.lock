@@ -183,7 +183,6 @@ DEPENDENCIES
   jquery-middleman
   middleman (~> 3)
   middleman-data_source
-  rb-inotify
   sass-rails
   therubyracer
 
