@@ -18,6 +18,13 @@ end
 
 activate :directory_indexes
 
+activate :data_source do |c|
+  c.root  = "https://images.freifunk-duesseldorf.de/gluon/stable/"
+  c.files = [
+    "version.json"
+  ]
+end
+
 configure :build do
   activate :minify_css
   activate :minify_javascript

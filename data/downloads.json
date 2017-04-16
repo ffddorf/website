@@ -1,7 +1,6 @@
 {
   "base_url": "https://images.freifunk-duesseldorf.de/gluon",
   "prefix": "gluon-ddorf",
-  "version": "v1.4.6-91",
   "images": [
     {
       "brand": "ALFA Network",
