@@ -19,7 +19,7 @@ end
 activate :directory_indexes
 
 activate :data_source do |c|
-  c.root  = "https://images.freifunk-duesseldorf.de/gluon/stable/"
+  c.root  = "https://images.lambdacore.de/gluon/stable/"
   c.files = [
     "version.json"
   ]
