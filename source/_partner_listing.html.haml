@@ -1,0 +1,4 @@
+.sponsor-listing
+  - locals[:partners].each do |partner|
+    %a( href="#{partner.url}" )
+      %img( src="/images/sponsors/#{partner.image}" alt="#{partner.name}" )

@@ -1,0 +1,4 @@
+---
+- name: Freifunk Rheinland e.V.
+  image: ffrl.svg
+  url: https://www.freifunk-rheinland.net/

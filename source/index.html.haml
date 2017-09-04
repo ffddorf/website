@@ -7,6 +7,7 @@ title: Freifunk Düsseldorf
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     padding-top: 25px;
+    margin-bottom: 30px;
     height: 0;
 
     iframe {
@@ -60,6 +61,12 @@ title: Freifunk Düsseldorf
     border-top-color: #d5d5d5;
   }
 
+  .sponsor-listing img {
+    max-width: 25%;
+    max-height: 170px;
+    margin-right: 15px;
+  }
+
 .jumbotron.text-center
   %h1 Freies WLAN in Düsseldorf
   %p Wir bauen ein freies Wifi-Netzwerk, über das du kostenfreien Zugang zum Internet bekommen kannst.
@@ -103,6 +110,13 @@ title: Freifunk Düsseldorf
 
 .videoWrapper
   %iframe( src="//player.vimeo.com/video/64814620" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen )
+
+.jumbotron
+  %h3 Sponsoren
+  = partial(:partner_listing, :locals => {:partners => data.sponsors})
+  %hr
+  %h3 Kooperationspartner
+  = partial(:partner_listing, :locals => {:partners => data.coops})
 
 %p.clearfix
   %a.btn.btn-link.pull-right( href="https://secure.flickr.com/photos/20792787@N00/4016700157" ) Photo by jaime.silva
