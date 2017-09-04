@@ -28,6 +28,37 @@ title: Freifunk Düsseldorf
     background-size: cover;
     background-repeat: no-repeat;
   }
+  .section-use .col-map {
+    position: relative;
+  }
+  .section-use .map-link {
+    position: absolute;
+    width: 100%;
+    background-image: url(/images/map-preview.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(50);
+    color: white;
+    font-size: 80px;
+    padding-bottom: 70%;
+  }
+  .section-use .map-link .icon-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+  }
+  .section-use .map-link i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -40px 0 0 -35px;
+    opacity: 0.7;
+  }
+  .section-use hr {
+    border-top-color: #d5d5d5;
+  }
 
 .jumbotron.text-center
   %h1 Freies WLAN in Düsseldorf
@@ -40,6 +71,21 @@ title: Freifunk Düsseldorf
     .col-md-6
       %i.fa.fa-child.fa-3x
       %p Mach mit bei den Freifunkern und erweitere das Netzwerk mit deinen eigenen Geräten.
+
+.jumbotron.section-use
+  .row
+    .col-md-8
+      %h2 Nutzen
+      %p Verbinde dein Gerät mit dem freien WLAN
+      %hr
+      %p
+        An vielen Orten in Düsseldorf kannst du dich mit deinem Gerät (Smartphone, Laptop) mit dem
+        offenen Netzwerk "Freifunk" verbinden. Nutze die <a href="https://map.freifunk-duesseldorf.de/" target="_blank">Karte</a>
+        um zu sehen, wo das Netzwerk verfügbar ist.
+    .col-md-4.col-map.hidden-sm.hidden-xs
+      %a.map-link( href="https://map.freifunk-duesseldorf.de/" target="_blank" )
+        .icon-wrapper
+          %i.fa.fa-arrows-alt
 
 .jumbotron.text-center
   %h2 Mitmachen
