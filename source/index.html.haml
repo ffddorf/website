@@ -2,19 +2,19 @@
 title: Freifunk Düsseldorf
 ---
 
-:css
+:scss
   .videoWrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     padding-top: 25px;
     height: 0;
-  }
-  .videoWrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
   }
   body {
     background-image: url("/images/photo.jpg");
@@ -51,9 +51,8 @@ title: Freifunk Düsseldorf
       %p Wir laden dich zu unseren Treffen ein. Komm einfach vorbei und melde dich im Forum an.
       %a.btn.btn-primary(href="/kontakt") Kontakt
 
-.jumbotron.text-center
-  .row.videoWrapper
-    %iframe( src="//player.vimeo.com/video/64814620" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen )
+.videoWrapper
+  %iframe( src="//player.vimeo.com/video/64814620" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen )
 
-%p.pull-right
-  %a.btn.btn-link( href="https://secure.flickr.com/photos/20792787@N00/4016700157" ) Photo by jaime.silva
+%p.clearfix
+  %a.btn.btn-link.pull-right( href="https://secure.flickr.com/photos/20792787@N00/4016700157" ) Photo by jaime.silva
