@@ -44,7 +44,8 @@ after_build do |builder|
   begin
     HTMLProofer.check_directory(config[:build_dir], {
       :assume_extension => true,
-      :url_ignore => ["http://192.168.0.1", "http://192.168.1.1"]
+      :url_ignore => ["http://192.168.0.1", "http://192.168.1.1"],
+      :empty_alt_ignore => true
     }).run
   rescue RuntimeError => e
     puts e
