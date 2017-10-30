@@ -2,3 +2,7 @@
 - name: Freifunk Rheinland e.V.
   image: ffrl.svg
   url: https://www.freifunk-rheinland.net/
+
+- name: Stadt Düsseldorf
+  image: stadt-duesseldorf.png
+  url: https://duesseldorf.de/
