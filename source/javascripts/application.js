@@ -2,7 +2,7 @@ $(document).ready(function() {
   $('#calendar').fullCalendar({
     googleCalendarApiKey: 'AIzaSyCd4qpRTufHOrQPmxMP086FZ8r1EhJNiaQ',
     events: {
-      googleCalendarId: 'fluxent.de_q9r2g8ij29e6satlpin9nrchlc@group.calendar.google.com'
+      googleCalendarId: 'freifunk-duesseldorf.de_cmre505gkff8l0uarm64rtkapg@group.calendar.google.com'
     },
     firstDay: 1,
     lang: 'de',
