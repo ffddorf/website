@@ -1,0 +1,13 @@
+---
+
+version: '3'
+
+services:
+
+  middleman:
+    build:
+      context: .
+    ports:
+      - 4567:${PORT:-4567}
+    volumes:
+      - .:/code
