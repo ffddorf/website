@@ -2,9 +2,9 @@
 - name: Factory Campus
   image: fc.png
   url: https://factorycampus.de/
-- name: Services4PC
-  image: s4pc.svg
-  url: https://www.s4pc.de/
 - name: DigitalOcean
   image: digitalocean.svg
   url: https://www.digitalocean.com/
+- name: Services4PC
+  image: s4pc.svg
+  url: https://www.s4pc.de/
