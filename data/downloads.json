@@ -118,15 +118,6 @@
       ]
     },
     {
-      "brand": "Onion",
-      "models": [
-        {
-          "name": "omega",
-          "image": "onion-omega.bin"
-        }
-      ]
-    },
-    {
       "brand": "OpenMesh",
       "models": [
         {
@@ -201,14 +192,17 @@
         {
           "name": "archer c7",
           "image": {
-            "Version 2": "tp-link-archer-c7-v2.bin"
+            "Version 2": "tp-link-archer-c7-v2.bin",
+            "Version 4": "tp-link-archer-c7-v4.bin",
+            "Version 5": "tp-link-archer-c7-v5.bin"
           }
         },
         {
           "name": "cpe210",
           "image": {
             "Version 1.0": "tp-link-cpe210-v1.0.bin",
-            "Version 1.1": "tp-link-cpe210-v1.1.bin"
+            "Version 1.1": "tp-link-cpe210-v1.1.bin",
+            "Version 2.0": "tp-link-cpe210-v2.0.bin"
           }
         },
         {
@@ -349,6 +343,12 @@
             "Version 2": "tp-link-tl-wr1043n-nd-v2.bin",
             "Version 3": "tp-link-tl-wr1043n-nd-v3.bin",
             "Version 4": "tp-link-tl-wr1043n-nd-v4.bin"
+          }
+        },
+        {
+          "name": "tl-wr1043n",
+          "image": {
+            "Version 5": "tp-link-tl-wr1043n-v5.bin"
           }
         },
         {
@@ -525,16 +525,12 @@
       "brand": "X86-64",
       "models": [
         {
-          "name": "kvm",
-          "image": "x86-64.img.gz"
-        },
-        {
-          "name": "virtualbox",
-          "image": "x86-64.vdi"
-        },
-        {
-          "name": "vmware",
-          "image": "x86-64.vmdk"
+          "name": "Generic",
+          "image": {
+            "KVM": "x86-64.img.gz",
+            "Virtualbox": "x86-64.vdi",
+            "VMWare": "x86-64.vmdk"
+          }
         }
       ]
     },
@@ -542,16 +538,33 @@
       "brand": "X86",
       "models": [
         {
-          "name": "kvm",
-          "image": "x86-generic.img.gz"
+          "name": "Generic",
+          "image": {
+            "KVM": "x86-generic.img.gz",
+            "Virtualbox": "x86-generic.vdi",
+            "VMWare": "x86-generic.vmdk"
+          }
         },
         {
-          "name": "virtualbox",
-          "image": "x86-generic.vdi"
+          "name": "geode",
+          "image": "x86-geode.img.gz"
+        }
+      ]
+    },
+    {
+      "brand": "Zyxel",
+      "models": [
+        {
+          "name": "nbg6616",
+          "image": "zyxel-nbg6616.bin"
         },
         {
-          "name": "vmware",
-          "image": "x86-generic.vmdk"
+          "name": "nbg6617",
+          "image": "zyxel-nbg6617.bin"
+        },
+        {
+          "name": "nbg6716",
+          "image": "zyxel-nbg6716.bin"
         }
       ]
     }
