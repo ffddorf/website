@@ -352,9 +352,11 @@
         },
         {
           "name": "TL-WR842ND",
+          "image": {
             "Version 1": "tp-link-tl-wr842n-nd-v1.bin",
             "Version 2": "tp-link-tl-wr842n-nd-v2.bin",
             "Version 3": "tp-link-tl-wr842n-nd-v3.bin"
+          }
         },
         {
           "name": "WBS210",
