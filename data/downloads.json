@@ -15,7 +15,7 @@
       "brand": "Aerohive Networks",
       "models": [
         {
-          "name": "WZR-600DHP",
+          "name": "HiveAP121",
           "image": "aerohive-hiveap-121.bin"
         }
       ]
@@ -110,13 +110,13 @@
         {
           "name": "EX6100",
           "image": {
-            "Version 2": "netgear-ex610v2.img"
+            "Version 2": "netgear-ex6100v2.img"
           }
         },
         {
           "name": "EX6150",
           "image": {
-            "Version 2": "netgear-ex610v2.img"
+            "Version 2": "netgear-ex6150v2.img"
           }
         },
         {
