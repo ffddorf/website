@@ -245,11 +245,12 @@
       "brand": "Raspberry Pi Foundation",
       "models": [
         {
-          "name": "Raspberry Pi",
-          "image": {
-            "Rev. 1": "raspberry-pi.img.gz",
-            "Rev. 2": "raspberry-pi-2.img.gz"
-          }
+          "name": "Raspberry Pi Model B",
+          "image": "raspberrypi-model-b.img.gz"
+        },
+        {
+          "name": "Raspberry Pi 2 Model B",
+          "image": "raspberrypi-2-model-b.img.gz"
         }
       ]
     },
