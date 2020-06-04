@@ -124,6 +124,10 @@
           "image": "netgear-r6120.img"
         },
         {
+          "name": "R6220 🆕",
+          "image": "netgear-r6220.img"
+        },
+        {
           "name": "WNDR3700",
           "image": {
             "Version 1": "netgear-wndr3700.img",
@@ -138,6 +142,10 @@
         {
           "name": "WNDR4300",
           "image": "netgear-wndr4300.img"
+        },
+        {
+          "name": "WNDRMACv2 🆕",
+          "image": "netgear-wndrmacv2.img"
         }
       ]
     },
@@ -264,9 +272,9 @@
           }
         },
         {
-          "name": "Archer C59",
+          "name": "Archer C6 🆕",
           "image": {
-            "Version 1": "tp-link-archer-c59-v1.bin"
+            "Version 2": "tp-link-archer-c6-v2.bin"
           }
         },
         {
@@ -275,6 +283,30 @@
             "Version 2": "tp-link-archer-c7-v2.bin",
             "Version 4": "tp-link-archer-c7-v4.bin",
             "Version 5": "tp-link-archer-c7-v5.bin"
+          }
+        },
+        {
+          "name": "Archer C20 🆕",
+          "image": {
+            "Version 1": "tp-link-archer-c20-v1.bin"
+          }
+        },
+        {
+          "name": "Archer C20i 🆕",
+          "image": {
+            "Version 1": "tp-link-archer-c20i.bin"
+          }
+        },
+        {
+          "name": "Archer C50 🆕",
+          "image": {
+            "Download": "tp-link-archer-c50.bin"
+          }
+        },
+        {
+          "name": "Archer C59",
+          "image": {
+            "Version 1": "tp-link-archer-c59-v1.bin"
           }
         },
         {
@@ -297,6 +329,18 @@
           "image": {
             "Version 1.0": "tp-link-cpe510-v1.0.bin",
             "Version 1.1": "tp-link-cpe510-v1.1.bin"
+          }
+        },
+        {
+          "name": "CPE520 🆕",
+          "image": {
+            "Version 1.1": "tp-link-cpe510-v1.1.bin"
+          }
+        },
+        {
+          "name": "RE450 🆕",
+          "image": {
+            "Download": "tp-link-re450.bin"
           }
         },
         {
@@ -408,11 +452,14 @@
           "name": "NanoStation",
           "image": {
             "Loco M2": "ubiquiti-nanostation-loco-m2.bin",
+            "Loco M2-XW 🆕": "ubiquiti-nanostation-loco-m2-xw.bin",
             "Loco M5": "ubiquiti-nanostation-loco-m5.bin",
+            "Loco M5-XW 🆕": "ubiquiti-nanostation-loco-m5-xw.bin",
             "M-XW": "ubiquiti-nanostation-m-xw.bin",
             "M": "ubiquiti-nanostation-m.bin",
             "M2": "ubiquiti-nanostation-m2.bin",
-            "M5": "ubiquiti-nanostation-m5.bin"
+            "M5": "ubiquiti-nanostation-m5.bin",
+            "M5-XW 🆕": "ubiquiti-nanostation-m5-xw.bin"
           }
         },
         {
